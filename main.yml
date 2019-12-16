@@ -1,9 +1,9 @@
 ---
 - hosts: all 
   tasks:
-
+  
    - name: "Copy MOTD"
-     copy: 
-      src: motd 
-      dest: /etc/ 
-      mode: 0644
+     copy:
+       src: motd
+       dest: /etc/
+       mode: 0644
